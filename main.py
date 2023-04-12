@@ -2,6 +2,7 @@
 import random     
 import sys 
      
+     
 a = input("welcome to the game of chance,\ndo you need instructions? type (yes) or (no) \n")
  
 if a.lower() == "yes":
