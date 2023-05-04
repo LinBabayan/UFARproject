@@ -2,7 +2,12 @@
 import random     
 import sys 
      
-a = input("welcome to the game of chance,\ndo you need instructions? type (yes) or (no) \n")
+while True:    
+    a = input("Welcome to the game of chance.\nDo you need instructions? Type 'yes' or 'no': ")
+    if a.lower() in ['yes', 'no']:
+        break
+    print("Invalid input. Please enter 'yes' or 'no'.")
+
  
 if a.lower() == "yes":
     print(''' 1. player rolls two six-sided dice and adds the numbers rolled together.
